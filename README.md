@@ -1,1 +1,1 @@
-# restaurant-page
+npm run deploy-resto-page
