@@ -21,7 +21,6 @@ header {
     height: 10%;
     width: inherit;
     padding: 10px;
-    border-bottom: 5px solid pink;
 }
 
 button {
@@ -32,13 +31,15 @@ button {
 }
 
 button:hover {
-    font-size: larger;
+    font-size: 1.2em;
 }
 
 main {
     background-color:rgba(0, 0, 0, 0.4);
     padding-left: 20vw;
     padding-right: 20vw;
+    border-top: 5px solid pink;
+    border-bottom: 5px solid pink;
 
     flex: 1;
 
@@ -50,6 +51,7 @@ main {
 
 .home-container, .menu-container, .about-container {
     margin: 10px;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
 }
@@ -74,10 +76,6 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
 }
 
-.menu-container > .card-container img {
-    width: minmax(150px, 250px);
-}
-
 .card {
     background-color: #FFFFFF;
     text-align: center;
@@ -85,6 +83,11 @@ main {
     border: 2px solid pink;
     border-radius: 6px;
     margin: 10px;
+}
+
+.card img {
+    height: 150px;
+    width: 150px;
 }
 
 .about-container {
@@ -97,5 +100,4 @@ footer {
     height: 5%;
     width: inherit;
     padding: 10px;
-    border-top: 5px solid pink;
 }
