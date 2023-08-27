@@ -12,12 +12,12 @@ export default function displayMenu() {
 
     // cards info
     const card = [];
-    card[0] = new Card('Gintoki Sakata', textPlaceholder, "'https://cdn.myanimelist.net/images/characters/15/241479.jpg'");
-    card[1] = new Card('Kagura', textPlaceholder, "'https://cdn.myanimelist.net/images/characters/2/245933.jpg'");
-    card[2] = new Card('Shinpachi Shimura', textPlaceholder, "'https://cdn.myanimelist.net/images/characters/14/114081.jpg'");
-    card[3] = new Card('Kotaro Katsura', textPlaceholder, "'https://cdn.myanimelist.net/images/characters/11/30271.jpg'");
-    card[4] = new Card('Toshiro Hijikata', textPlaceholder, "'https://cdn.myanimelist.net/images/characters/7/73155.jpg'");
-    card[5] = new Card('Okita Sogo', textPlaceholder, "'https://cdn.myanimelist.net/images/characters/6/112926.jpg'");
+    card[0] = new Card('Gintoki Sakata', textPlaceholder, 'https://cdn.myanimelist.net/images/characters/15/241479.jpg');
+    card[1] = new Card('Kagura', textPlaceholder, 'https://cdn.myanimelist.net/images/characters/2/245933.jpg');
+    card[2] = new Card('Shinpachi Shimura', textPlaceholder, 'https://cdn.myanimelist.net/images/characters/14/114081.jpg');
+    card[3] = new Card('Kotaro Katsura', textPlaceholder, 'https://cdn.myanimelist.net/images/characters/11/30271.jpg');
+    card[4] = new Card('Toshiro Hijikata', textPlaceholder, 'https://cdn.myanimelist.net/images/characters/7/73155.jpg');
+    card[5] = new Card('Okita Sogo', textPlaceholder, 'https://cdn.myanimelist.net/images/characters/6/112926.jpg');
     for(let i=0; i<card.length; i++){
         card_container.appendChild(card[i].createCardDisplay());
     }
