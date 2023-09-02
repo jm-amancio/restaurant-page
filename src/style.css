@@ -51,7 +51,6 @@ main {
 
 .home-container, .menu-container, .about-container {
     margin: 10px;
-    overflow-y: scroll;
     display: flex;
     flex-direction: column;
 }
